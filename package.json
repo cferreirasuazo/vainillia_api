@@ -1,0 +1,26 @@
+{
+  "name": "cristhian-ferreira---cferreirasuazo---2020-8-20-library-api--",
+  "version": "1.0.0",
+  "description": "Soluciones GBH acaba de contratarlo a ústed para crear su biblioteca en línea. La misma le instruyó construir un REST API el cuál permita sus clientes consumir el listado de libros disponibles, así como también, leer dichos libros página por página en el formato deseado.",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gbh-candidates/cristhian-ferreira---cferreirasuazo---2020-8-20-library-api---js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gbh-candidates/cristhian-ferreira---cferreirasuazo---2020-8-20-library-api---js/issues"
+  },
+  "homepage": "https://gitlab.com/gbh-candidates/cristhian-ferreira---cferreirasuazo---2020-8-20-library-api---js#readme"
+}

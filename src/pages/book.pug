@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content 
+        div(class="card")
+           div(class="card-body")
+                p(class="card-text h2") Title: #{book.title}
+                p(class="card-text h2")  Author: #{book.author}
+                p(class="card-text h2")  Genre: #{book.genre}
+        nav
+           ul(class="pagination")
+                each val, index in pages
+                        li(class="page-item")
+                           a(href=`/libro/${book.id}/page/${index}` class="page-link" ) #{index}

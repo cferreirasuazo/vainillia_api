@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content  
+    <div>
+        h1 Lists of books
+        ul(class="list-group")
+            each book in data
+                li(class="list-group-item")
+                    a(href=`/libro/${book.id}`) #{book.title}
+    <div>
